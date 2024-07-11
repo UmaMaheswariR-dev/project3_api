@@ -1,0 +1,69 @@
+
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+}
+#addDecisionBtn{
+    border:none;
+    color:#0398bd;
+    font-weight: bold;
+}
+#addDecisionBtn>i{
+    background-color: #0684a383;
+    border-radius: 50%;
+    padding:5px;
+    color:black;
+    margin-right: 10px;
+}
+
+#nextBtn, .take-dec, .add-btn{
+    width:100px;
+    background-color: rgb(255, 123, 0);
+    color:white;
+    border:none;
+    padding:5px;
+    border-radius: 50px;
+}
+
+.decision>i{
+    color:#0398bd;
+}
+.take-dec, .add-btn{
+    background-color: #0398bd;
+    padding:10px 15px;
+    width:150px;
+}
+
+.decision {
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px 15px;
+    background-color:#0398bd33;
+    display:grid;
+    grid-template-columns: 10% 60% 30%;
+    align-items: center;
+}
+
+.decision .title {
+    font-weight: bold;
+}
+
+.decision .description {
+    color: #666;
+    margin-top: 5px;
+}
+
+.decision .delete-btn{
+    background-color: transparent;
+    border: none;
+    color:#777;
+    cursor: pointer;
+    margin-left:10px;
+}
+
+.decision .delete-btn:hover{
+    background-color: #eee;
+}

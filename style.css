@@ -1,0 +1,267 @@
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding:15px;
+    text-align: center;
+}
+.profile-but>i, .button>i{
+    color:rgb(4, 42, 158);
+}
+.logo{
+    position: relative;
+    bottom:12px;
+}
+.center>a{
+    padding: 10px;
+}
+.logo{
+    float: left;}
+.center-button{
+    color:rgb(4, 42, 158);
+    font-weight: bold;
+}
+.vl1{
+    content:'';
+    width:2px;
+    height:12px;
+    background-color:rgb(4, 42, 158);
+    display:inline-block;
+}
+.center, .user-profile{
+    display: inline-block;
+}
+.user-profile{
+    float: right;
+}
+.pages{
+    background-color:#ddd;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 80% 20% ;
+    height:30px;
+    width:97.8%;
+}
+
+.main{
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 20% 60% 20% ;
+   
+}
+.col1, .col2 {
+    border-right: 1px solid #bbb;
+}
+hr{
+    border-bottom:#bbb;
+}
+.menu{
+    font-weight: bold;
+}
+.tags{
+    background-color: #5ed9f844;
+    padding:5px;
+}
+.compose{
+    padding-left:15px;
+    color:black;
+    border-bottom: 4px solid #777;
+}
+ul{
+    list-style-type:none;
+    padding-left:15px;
+    padding-right:15px;
+}
+.mgt-10{
+    margin-top: 10px;
+}
+.table>ul>li{
+    background-color: white;
+    padding: 10px;
+    border: 0.5px solid rgb(235, 232, 232);
+}
+.help{
+    
+    background-color: #ddd;
+}
+.help>a>span{
+    border-radius: 50%;
+    background-color: rgb(255, 123, 0);
+    color:white;
+}
+.text_center{
+   text-align: center; 
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.col2{
+    padding: 15px;
+}
+.right{
+    float: right;
+}
+.pg{
+    width:70px;
+    margin-right: 10px;
+    background-color: #ddd;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+}
+.pg1{
+    border:1px solid #02c7f8;
+}
+.mainbox{
+    border:1px solid #02c7f8;
+    background-color: white;
+    padding:20px 15px 15px 15px;
+    margin-top: 10px;
+}
+.des{
+    padding-left: 20px;
+    font-size: small;
+}
+.progress-container {
+    display: flex;
+    align-items: center;
+}
+
+.progress-level {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(162, 183, 245, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(4, 42, 158);
+}
+
+.progress-line {
+    width: 20px;
+    height: 5px;
+    border-top: 2px dashed rgb(4, 42, 158);
+
+}
+
+.completed {
+    background-color: rgb(4, 42, 158);
+    color: white;
+}
+.row1>i{
+    background-color: #0684a383;
+    border-radius: 50%;
+    padding:5px;
+    color:black;
+    margin-right: 10px;
+}
+.row2>a{
+    color:#777;
+    padding:5px;
+}
+.row2{
+    padding:0 5px;
+}
+.row2>.active{
+    color:black;
+    border-bottom: 4px solid #777;
+}
+
+.col3 .row1 {
+    padding:15px;
+}
+
+.col3 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.col3 input[type="text"], .col3 input[type="number"], .col3 select, .row3 select, .row3 input[type="color"],
+ .row3 input[type="text"], .row3 input[type="number"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: transparent;
+    width:90%;
+}
+ .row3 select, .row3 input[type="color"], .row3 input[type="text"], .row3 input[type="number"]{
+    
+    display: inline-block;
+    
+}
+.row3{
+    display: flex;
+}
+.row3 div{
+    margin-right: 5px;
+}
+.style-option {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width:40%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.style-option:hover {
+    shape-outside: margin-box ;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* Styles for different button styles */
+.style1, [data-style="style1"] {
+    background-color:rgb(255, 123, 0) ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.style2, [data-style="style2"] {
+    background-color: transparent;
+    color: rgb(255, 123, 0);
+    border: 1px solid rgb(255, 123, 0);
+    border-radius: 4px;
+}
+
+.style3, [data-style="style3"]{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.style4, [data-style="style4"]{
+    background-color: transparent;
+    color: rgb(255, 123, 0);
+    border: 1px solid rgb(255, 123, 0);
+    border-radius: 50px;
+    
+}
+.style5, [data-style="style5"]{
+    background-color: transparent;
+    color: rgb(255, 123, 0);
+    border: none;
+    text-decoration: underline;
+}
+.style6, [data-style="style6"]{
+    background-color: transparent;
+    color: rgb(255, 123, 0);
+    border: none;
+    text-decoration: underline;
+    
+}
